@@ -4,8 +4,8 @@ using namespace std;
 
 int main()
 {
-   // vector<int>v{3,0,0,2,0,4};
-     vector<int>v{0,1,0,2,1,0,1,3,2,1,2,1};
+   vector<int>v{3,0,0,2,0,4};
+    // vector<int>v{0,1,0,2,1,0,1,3,2,1,2,1};
     vector<int>maxL=v;
    vector<int>maxR=v;
     maxR[v.size()-1]= v[v.size()-1];
